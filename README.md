@@ -5,7 +5,6 @@ Tested on Sanskrit, Hindi, Marathi and English.
 The interactive features as of now are:-
 1. Error detection.
 2. Generating Suggestions (will replace this to auto-completion in Future Work).
-Please mail to rohitsaluja22@gmail.com or file an issue for any suggestions related to auto-completion.
 
 Following information is updated on the fly, after correction of each page:-
 1. A domain specific dictionary which is uploaded on the fly.
@@ -19,7 +18,6 @@ https://tinyurl.com/y7wbpo6m
 2. The purple words are the auto corrections.
 3. The incorrect words are colored with blue, green and red strings from Dictionary. This improves readability.
 4. The user can type in slp1 format or right click on the word (right click suggestion may be a partially corrected word) to correct the words. "Ctrl+d" converts the slp1 word-under-cursor to Devanagari and removes the color coding from the word-under-cursor.
-Right click works after clicking left on the word-under-cursor. Please mail to rohitsaluja22@gmail.com or file an issue for any suggestions to correct this.
 
 # Ubuntu and Qt version
 
@@ -77,27 +75,6 @@ If there are any issues in the format, just right click on the word and select t
 8) There is a timer on top left which gets updated on each right click or “Ctrl S”. It resets to 0 on loading the new page. Use “Ctrl+Shift+R” to move to next page and “Ctrl+Shift+L” to move to previous page.
 9) As you use “Cntrl + Shift + P” to load domain words, you will observe improvement in suggestions page by page.
 10) A useful tip: keep the GEROCR open in an editor as certain correct lines can be directly copied from it.
-
-# Citations
-
-You can read about our papers on: https://www.cse.iitb.ac.in/~rohitsaluja/publication.html
-If you use this framework or learn from our publications, please cite our papers:
-
-@article{RohitErrorDetectionNCorrection,
-    author="Rohit Saluja and Devaraj Adiga and Parag Chaudhuri and Ganesh Ramakrishnan and Mark Carman",
-    title="Error Detection and Corrections in {I}ndic {OCR} using {LSTM}s",
-    journal = "International Conference on Document Analysis and Recognition ({ICDAR})",
-    location="Kyoto, Japan",
-    year="2017"
-}
-
-@article{RohitOpenOCRCorrect,
-        author="Rohit Saluja and Devaraj Adiga and Parag Chaudhuri and Ganesh Ramakrishnan and Mark Carman",
-    title="A Framework for Document Specific Error Detection and Corrections in {I}ndic {OCR}",
-    journal="1st International Workshop on Open Services and Tools for Document Analysis (ICDAR- OST)",
-    location="Kyoto, Japan",
-    year="2017"
-}
 
 # References:
 1. We started the code (and used icons) from: https://www.youtube.com/watch?v=x858_WCtl_Y
